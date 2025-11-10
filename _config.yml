@@ -6,16 +6,7 @@ plugins:
 github:
   is_project_page: false
 
-
 # Image de profil (ajout perso)
 profile_image: /portfolio.data.analyst/images/PhotoPrfl.png
-
-social:
-  - name: LinkedIn
-    url: "https://www.linkedin.com/in/mohamed-benali/"
-  - name: GitHub
-    url: "https://github.com/mohamedbenali"
-  - name: Email
-    url: "mailto:mohamed.benali@example.com"
 
 show_excerpts: true
