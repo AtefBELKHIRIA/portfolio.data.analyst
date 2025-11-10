@@ -1,11 +1,11 @@
 title: "Mohamed BEN ALI"
 description: "Data Analyst passionné par la visualisation et l’analyse de données"
-remote_theme: pages-themes/modernist@v0.5.0  # Utilise la dernière version
+remote_theme: pages-themes/modern@v0.3.0
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
 
-# Photo de profil (mettre le fichier dans /assets/images/)
+# Photo de profil
 avatar: "/images/PhotoPrfl.png"
 
 # Liens sociaux
@@ -19,4 +19,3 @@ social:
 
 # Optionnel : afficher un résumé sur la page d’accueil
 show_excerpts: true
-
