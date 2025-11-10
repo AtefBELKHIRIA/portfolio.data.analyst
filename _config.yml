@@ -1,11 +1,12 @@
-title: "Mohamed BEN ALI"
-description: "Data Analyst passionné par la visualisation et l’analyse de données"
-remote_theme: pages-themes/minima@v0.2.0
+title: Mohamed BENALI
+description: Data Analyst passionné par la visualisation de données
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
-  - jekyll-feed
+show_downloads: false
 
-avatar: "/images/PhotoPrfl.png"
+# Image de profil (ajout perso)
+profile_image: /portfolio.data.analyst/images/PhotoPrfl.png
 
 social:
   - name: LinkedIn
