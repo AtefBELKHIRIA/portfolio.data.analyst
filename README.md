@@ -13,5 +13,4 @@ Actuellement **Data Analyst chez France Food Company (Île-de-France)**, je rest
 - Analyse des besoins métiers et rédaction de spécifications fonctionnelles  
 - Conception et intégration de pipelines de données (Talend, SSIS, SAP Data Warehouse Cloud)  
 - Création de dashboards dynamiques (Power BI, Tableau)  
-- Expertise en SQL, Python, ETL et visualisation de données  
-- Intéressé par les architectures data modernes et la gouvernance des données
+- Expertise en SQL, Python, ETL et visualisation de données
