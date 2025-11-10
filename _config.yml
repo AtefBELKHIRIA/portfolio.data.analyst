@@ -1,1 +1,22 @@
+title: "Mohamed BEN ALI"
+description: "Data Analyst passionné par la visualisation et l’analyse de données"
+remote_theme: pages-themes/modernist@v0.5.0  # Utilise la dernière version
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+# Photo de profil (mettre le fichier dans /assets/images/)
+avatar: "/images/PhotoPrfl.png"
+
+# Liens sociaux
+social:
+  - name: LinkedIn
+    url: "https://www.linkedin.com/in/mohamed-benali/"
+  - name: GitHub
+    url: "https://github.com/mohamedbenali"
+  - name: Email
+    url: "mailto:mohamed.benali@example.com"
+
+# Optionnel : afficher un résumé sur la page d’accueil
+show_excerpts: true
 
