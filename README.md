@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Mohamed BEN ALI"
+title: "Mohamed BEN AL"
 ---
 
 **Data Analyst passionné**, avec plusieurs années d’expérience dans le traitement, la modélisation et la visualisation de données.  
