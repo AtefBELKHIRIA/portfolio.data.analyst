@@ -10,54 +10,66 @@ body {
   min-height: 100vh !important;
 }
 
-/* ====== Colonne gauche (profil) ====== */
+/* ====== COLONNE GAUCHE (PROFIL) ====== */
 header {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
-  width: 520px !important;
+  width: 520px !important;               /* Largeur de la colonne gauche */
   height: 100vh !important;
-  background: #f5f5f5 !important;
+  background: #f5f5f5 !important;        /* Fond gris clair élégant */
   border-right: 1px solid #ddd !important;
-  padding: 25px 30px 40px 30px !important; /* padding équilibré */
+  padding: 35px 30px 40px 30px !important; /* Espacements équilibrés */
   box-sizing: border-box !important;
-  overflow-y: auto !important; /* permet le scroll si le contenu dépasse */
+  overflow-y: auto !important;           /* Permet de scroller si trop de contenu */
   text-align: center !important;
   z-index: 10 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
 }
 
+/* ====== TITRE (Nom / Prénom) ====== */
 header h1 {
-  margin: 0 0 20px 0 !important;
-  font-size: 1.6rem !important;
-  color: rgb(0, 112, 192) !important; /* bleu */
+  margin-top: 5px !important;
+  margin-bottom: 25px !important;
+  font-size: 1.8rem !important;
+  color: rgb(0, 112, 192) !important;     /* Bleu professionnel */
+  font-weight: bold !important;
 }
 
+/* ====== PHOTO DE PROFIL ====== */
 header .profile {
-  width: 38% !important;
-  max-width: 160px !important;
+  width: 38% !important;                  /* Taille équilibrée */
+  max-width: 180px !important;
+  aspect-ratio: 1 / 1 !important;         /* Rend la photo parfaitement ronde */
   border-radius: 50% !important;
-  margin: 10px auto 20px auto !important;
+  margin: 0 auto 20px auto !important;
   display: block !important;
   object-fit: cover !important;
+  border: 3px solid #ddd !important;      /* Léger contour gris */
 }
 
-header p {
+/* ====== DESCRIPTION ====== */
+header p.description {
   font-size: 1rem !important;
-  color: rgb(89, 89, 89) !important;
-  line-height: 1.5 !important;
-  margin-bottom: 20px !important; /* espace sous la description */
+  color: rgb(89, 89, 89) !important;      /* Gris neutre */
+  line-height: 1.6 !important;
+  margin: 0 auto 25px auto !important;
+  text-align: center !important;
+  padding: 0 15px !important;
 }
 
-/* ====== Contact & Me retrouver ====== */
-header .contact, header .social {
-  margin-top: 20px !important;
+/* ====== SECTION CONTACT ====== */
+header .contact {
+  width: 100% !important;
+  margin-top: 15px !important;
   text-align: left !important;
-  color: #595959 !important;
-  font-size: 0.95rem !important;
-  padding: 0 10px !important; /* léger retrait intérieur */
+  padding: 0 15px !important;
 }
 
-header .contact h3, header .social h3 {
+header .contact h3 {
   color: rgb(0, 112, 192) !important;
   font-size: 1.1rem !important;
   margin-bottom: 8px !important;
@@ -65,41 +77,42 @@ header .contact h3, header .social h3 {
   padding-bottom: 3px !important;
 }
 
-header .contact a, header .social a {
-  color: #0070c0 !important;
+header .contact p,
+header .contact a {
+  color: #595959 !important;
+  font-size: 0.95rem !important;
+  margin: 2px 0 !important;
   text-decoration: none !important;
 }
 
-header .contact a:hover, header .social a:hover {
+header .contact a:hover {
   text-decoration: underline !important;
 }
 
-/* ====== Nom & titre ====== */
-header h1 {
-  margin-top: 10px !important;
-  margin-bottom: 25px !important;
-  font-size: 1.6rem !important;
-  color: rgb(0, 112, 192) !important;   /* ✅ Bleu professionnel */
-  font-weight: bold !important;
+/* ====== SECTION ME RETROUVER ====== */
+header .social {
+  width: 100% !important;
+  margin-top: 20px !important;
+  text-align: left !important;
+  padding: 0 15px !important;
 }
 
-/* ====== Photo de profil ====== */
-header .profile {
-  width: 35% !important;
-  max-width: 170px !important;
-  border-radius: 50% !important;
-  margin: 0 auto 25px auto !important;
-  display: block !important;
-  object-fit: cover !important;
+header .social h3 {
+  color: rgb(0, 112, 192) !important;
+  font-size: 1.1rem !important;
+  margin-bottom: 8px !important;
+  border-bottom: 1px solid #ccc !important;
+  padding-bottom: 3px !important;
 }
 
-/* ====== Description ====== */
-header p {
-  font-size: 1rem !important;
-  color: rgb(38, 38, 38) !important;    /* ✅ Gris élégant */
-  line-height: 1.6 !important;
-  margin: 0 auto !important;
-  padding-top: 10px !important;
+header .social a {
+  color: #0070c0 !important;
+  text-decoration: none !important;
+  font-size: 0.95rem !important;
+}
+
+header .social a:hover {
+  text-decoration: underline !important;
 }
 
 /* ====== Partie droite (contenu principal) ====== */
