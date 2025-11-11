@@ -50,11 +50,21 @@ header p {
 
 /* ====== Partie droite (contenu principal) ====== */
 section, main, .wrapper {
-  margin-left: 200px !important;   /* rapproche le contenu de la gauche */
-  padding: 40px 60px !important;   /* équilibre les marges internes */
-  max-width: 1100px !important;    /* rend le contenu plus large */
-  width: auto !important;          /* s’adapte à la taille de l’écran */
+  margin-left: 200px !important;   /* ajuste selon ton header */
+  padding: 40px !important;
+  flex: 1 !important;
+  background: #fff !important;
   box-sizing: border-box !important;
+  min-height: 100vh !important;
+  max-width: 100% !important;      /* ✅ empêche la limitation de largeur */
+  width: auto !important;          /* ✅ autorise le contenu à s’étendre */
+}
+
+.wrapper, .content, article {
+  max-width: 100% !important;      /* ✅ étend tout le texte du README */
+  width: 100% !important;
+  margin: 0 !important;
+  padding-right: 40px !important;  /* pour garder une marge à droite */
 }
 
 /* ====== Responsive (mobile/tablette) ====== */
