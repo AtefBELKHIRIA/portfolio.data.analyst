@@ -79,6 +79,31 @@ section, main, .wrapper, .content, article {
   margin-top: 0 !important;       /* Supprime toute marge externe haute */
 }
 
+/* ====== Contact & Me retrouver ====== */
+header .contact, header .social {
+  margin-top: 25px !important;
+  text-align: left !important;
+  color: #595959 !important; /* Gris doux */
+  font-size: 0.95rem !important;
+}
+
+header .contact h3, header .social h3 {
+  color: rgb(0, 112, 192) !important; /* Bleu du titre */
+  font-size: 1.1rem !important;
+  margin-bottom: 8px !important;
+  border-bottom: 1px solid #ccc !important;
+  padding-bottom: 3px !important;
+}
+
+header .contact a, header .social a {
+  color: #0070c0 !important;
+  text-decoration: none !important;
+}
+
+header .contact a:hover, header .social a:hover {
+  text-decoration: underline !important;
+}
+
 /* ====== Responsive (mobile/tablette) ====== */
 @media (max-width: 1000px) {
   body {
