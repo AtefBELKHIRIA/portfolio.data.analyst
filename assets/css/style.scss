@@ -15,11 +15,11 @@ header {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
-  width: 520px !important; /* Largeur de la colonne gauche */
+  width: 520px !important;
   height: 100vh !important;
   background: #f5f5f5 !important;
   border-right: 1px solid #ddd !important;
-  padding: 20px 30px !important;  /* 🔧 réduit un peu le padding top pour aligner avec droite */
+  padding: 20px 30px !important;
   box-sizing: border-box !important;
   overflow-y: auto !important;
   text-align: center !important;
@@ -28,9 +28,11 @@ header {
 
 /* ====== Nom & titre ====== */
 header h1 {
-  margin-top: 10px !important;    /* 🔧 petit espace en haut du header */
-  margin-bottom: 25px !important; /* 🔧 espace entre le nom et la photo */
+  margin-top: 10px !important;
+  margin-bottom: 25px !important;
   font-size: 1.6rem !important;
+  color: rgb(0, 112, 192) !important;   /* ✅ Bleu professionnel */
+  font-weight: bold !important;
 }
 
 /* ====== Photo de profil ====== */
@@ -38,7 +40,7 @@ header .profile {
   width: 35% !important;
   max-width: 170px !important;
   border-radius: 50% !important;
-  margin: 0 auto 25px auto !important; /* 🔧 espace régulier en bas de la photo */
+  margin: 0 auto 25px auto !important;
   display: block !important;
   object-fit: cover !important;
 }
@@ -46,10 +48,10 @@ header .profile {
 /* ====== Description ====== */
 header p {
   font-size: 1rem !important;
-  color: #555 !important;
-  line-height: 1.5 !important;
+  color: rgb(89, 89, 89) !important;    /* ✅ Gris élégant */
+  line-height: 1.6 !important;
   margin: 0 auto !important;
-  padding-top: 10px !important;  /* 🔧 léger espace supplémentaire sous la photo */
+  padding-top: 10px !important;
 }
 
 /* ====== Partie droite (contenu principal) ====== */
