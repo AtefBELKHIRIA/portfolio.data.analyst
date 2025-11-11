@@ -67,6 +67,12 @@ section, main, .wrapper {
   padding-right: 40px !important;  /* pour garder une marge à droite */
 }
 
+/* ====== Réduction de l’espace en haut du contenu ====== */
+section, main, .wrapper, .content, article {
+  padding-top: 10px !important;   /* Réduit l’espace supérieur */
+  margin-top: 0 !important;       /* Supprime toute marge externe haute */
+}
+
 /* ====== Responsive (mobile/tablette) ====== */
 @media (max-width: 1000px) {
   body {
