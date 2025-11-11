@@ -49,15 +49,12 @@ header p {
 }
 
 /* ====== Partie droite (contenu principal) ====== */
-section {
-  margin-left: 570px !important; /* ✅ collé à la colonne gauche */
-  padding: 40px 60px !important;
-  flex: 1 !important;
-  background: #fff !important;
+section, main, .wrapper {
+  margin-left: 300px !important;   /* rapproche le contenu de la gauche */
+  padding: 40px 60px !important;   /* équilibre les marges internes */
+  max-width: 1100px !important;    /* rend le contenu plus large */
+  width: auto !important;          /* s’adapte à la taille de l’écran */
   box-sizing: border-box !important;
-  min-height: 100vh !important;
-  z-index: 1 !important;
-  width: calc(100% - 570px) !important; /* ✅ plus large */
 }
 
 /* ====== Responsive (mobile/tablette) ====== */
