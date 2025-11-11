@@ -1,12 +1,23 @@
 title: Atef BELKHIRIA
 description: Data Analyst passionné par la visualisation de données
+
+# Image de profil (ajout perso)
+profile_image: /portfolio.data.analyst/images/IMGPrfl.jpg
+
+# Informations de contact
+contact:
+  phone: "+33 6 12 34 56 78"
+  email: "atef.belkhiria@estiam.com"
+
+# Liens sociaux
+social:
+  linkedin: "https://www.linkedin.com/in/atef-belkhiria-b615ab160/"
+  github: "https://github.com/AtefBELKHIRIA"
+  
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
 github:
   is_project_page: false
-
-# Image de profil (ajout perso)
-profile_image: /portfolio.data.analyst/images/IMGPrfl.jpg
 
 show_excerpts: true
