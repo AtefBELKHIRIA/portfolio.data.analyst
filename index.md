@@ -8,6 +8,23 @@ layout: default
   <p>{{ site.description }}</p>
 </header>
 
+<!-- ====== Contact ====== -->
+<div class="contact">
+  <h3>Contact</h3>
+  <p>📞 {{ site.contact.phone }}</p>
+  <p>✉️ <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
+</div>
+
+<!-- ====== Me retrouver ====== -->
+<div class="social">
+  <h3>Me retrouver</h3>
+  <p>
+    🔗 <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a><br>
+    💻 <a href="{{ site.social.github }}" target="_blank">GitHub</a>
+  </p>
+</div>
+
+
 <section>
   {% capture markdown_content %}
   {% include_relative README.md %}
