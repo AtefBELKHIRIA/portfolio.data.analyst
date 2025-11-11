@@ -4,9 +4,9 @@ layout: default
 
 <header>
   <h1>{{ site.title }}</h1>
-  <img src="/images/IMGPrfl.jpg" alt="Photo de profil" class="profile">
+  <img src="{{ site.profile_image }}" alt="Photo de profil" class="profile">
   <p>{{ site.description }}</p>
-
+  
   <div class="contact">
     <h3>Contact</h3>
     <p>📞 {{ site.contact.phone }}</p>
@@ -21,6 +21,7 @@ layout: default
     </p>
   </div>
 </header>
+
 
 <section>
   {% capture markdown_content %}
