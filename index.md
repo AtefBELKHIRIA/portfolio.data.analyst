@@ -4,7 +4,7 @@ layout: default
 
 <header>
   <h1>{{ site.title }}</h1>
-  <img src="/images/IMGPrfl.png" alt="Photo de profil" class="profile">
+  <img src="/images/IMGPrfl.jpg" alt="Photo de profil" class="profile">
   <p>{{ site.description }}</p>
 
   <div class="contact">
