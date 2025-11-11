@@ -19,33 +19,37 @@ header {
   height: 100vh !important;
   background: #f5f5f5 !important;
   border-right: 1px solid #ddd !important;
-  padding: 30px !important;
+  padding: 20px 30px !important;  /* 🔧 réduit un peu le padding top pour aligner avec droite */
   box-sizing: border-box !important;
   overflow-y: auto !important;
   text-align: center !important;
   z-index: 10 !important;
 }
 
+/* ====== Nom & titre ====== */
 header h1 {
-  margin: 0 0 15px 0 !important;
+  margin-top: 10px !important;    /* 🔧 petit espace en haut du header */
+  margin-bottom: 25px !important; /* 🔧 espace entre le nom et la photo */
   font-size: 1.6rem !important;
 }
 
-/* ====== Photo de profil (ajustée) ====== */
+/* ====== Photo de profil ====== */
 header .profile {
-  width: 35% !important; /* ✅ un peu plus petite */
+  width: 35% !important;
   max-width: 170px !important;
   border-radius: 50% !important;
-  margin: 15px auto !important;
+  margin: 0 auto 25px auto !important; /* 🔧 espace régulier en bas de la photo */
   display: block !important;
   object-fit: cover !important;
 }
 
+/* ====== Description ====== */
 header p {
   font-size: 1rem !important;
   color: #555 !important;
   line-height: 1.5 !important;
-  margin-top: 10px !important;
+  margin: 0 auto !important;
+  padding-top: 10px !important;  /* 🔧 léger espace supplémentaire sous la photo */
 }
 
 /* ====== Partie droite (contenu principal) ====== */
