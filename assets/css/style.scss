@@ -84,3 +84,9 @@ footer {
   visibility: hidden !important;
   height: 0 !important;
 }
+
+.markdown-body, article, .content {
+  margin: 0 auto !important;
+  width: 90% !important;     /* élargit la zone de texte */
+  text-align: left !important;
+}
