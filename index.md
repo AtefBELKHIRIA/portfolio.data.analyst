@@ -4,26 +4,23 @@ layout: default
 
 <header>
   <h1>{{ site.title }}</h1>
-  <img src="{{ site.profile_image }}" alt="Photo de profil" class="profile">
+  <img src="/images/IMGPrfl.png" alt="Photo de profil" class="profile">
   <p>{{ site.description }}</p>
+
+  <div class="contact">
+    <h3>Contact</h3>
+    <p>📞 {{ site.contact.phone }}</p>
+    <p>✉️ <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
+  </div>
+
+  <div class="social">
+    <h3>Me retrouver</h3>
+    <p>
+      🔗 <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a><br>
+      💻 <a href="{{ site.social.github }}" target="_blank">GitHub</a>
+    </p>
+  </div>
 </header>
-
-<!-- ====== Contact ====== -->
-<div class="contact">
-  <h3>Contact</h3>
-  <p>📞 {{ site.contact.phone }}</p>
-  <p>✉️ <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
-</div>
-
-<!-- ====== Me retrouver ====== -->
-<div class="social">
-  <h3>Me retrouver</h3>
-  <p>
-    🔗 <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a><br>
-    💻 <a href="{{ site.social.github }}" target="_blank">GitHub</a>
-  </p>
-</div>
-
 
 <section>
   {% capture markdown_content %}
