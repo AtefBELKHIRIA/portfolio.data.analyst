@@ -55,9 +55,10 @@ header .profile {
 /* ====== DESCRIPTION ====== */
 header p.description {
   font-size: 1rem !important;
-  color: rgb(89, 89, 89) !important;
+  color: rgb(64, 64, 64) !important;
   line-height: 1.6 !important;
   margin: 0 auto 25px auto !important;
+  font-weight: bold !important; /* ✅ rend le texte en gras */
   text-align: center !important;
   padding: 0 15px !important;
 }
