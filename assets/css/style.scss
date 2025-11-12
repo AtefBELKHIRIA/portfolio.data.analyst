@@ -15,7 +15,8 @@ header {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
-  width: clamp(400px, 25vw, 520px) !important; /* largeur responsive */
+  width: 520px !important;
+  /*width: clamp(400px, 25vw, 520px) !important; /* largeur responsive */
   height: 100vh !important;
   background: #f5f5f5 !important;
   border-right: 1px solid #ddd !important;
