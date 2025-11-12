@@ -141,28 +141,50 @@ main, section, .wrapper, .content {
 }
 
 /* ====== Partie droite (contenu principal) ====== */
-section, main, .wrapper {
-  margin-left: 280px !important;   /* ajuste selon ton header */
-  padding: 40px !important;
-  flex: 1 !important;
+section, main, .wrapper, .content, article {
+  /* Marge à gauche dépendante de la largeur de la colonne fixe */
+  margin-left: clamp(420px, 26vw, 520px) !important; /* responsive avec la colonne gauche */
+
+  /* Largeur et centrage */
+  max-width: 1100px !important;   /* limite pour une bonne lisibilité */
+  width: calc(100% - clamp(420px, 26vw, 520px)) !important;
+  margin-right: auto !important;  /* recentre le texte dans l’espace restant */
+
+  /* Espacements internes */
+  padding: 40px 5vw !important;   /* marge intérieure proportionnelle */
+  padding-top: 10px !important;   /* réduit l’espace du haut */
+  
+  /* Apparence */
   background: #fff !important;
   box-sizing: border-box !important;
   min-height: 100vh !important;
-  max-width: 100% !important;      /* empêche la limitation de largeur */
-  width: auto !important;          /* autorise le contenu à s’étendre */
+  color: #333 !important;
 }
 
-.wrapper, .content, article {
-  max-width: 100% !important;      /* étend tout le texte du README */
-  width: 100% !important;
-  margin: 0 !important;
-  padding-right: 40px !important;  /* pour garder une marge à droite */
+/* Centrer le texte et éviter qu’il colle aux bords */
+section > *,
+main > *,
+.wrapper > *,
+.content > *,
+article > * {
+  max-width: 900px !important;  /* largeur max du contenu textuel */
+  margin: 0 auto !important;    /* centre horizontalement */
+  line-height: 1.6 !important;
 }
 
-/* ====== Réduction de l’espace en haut du contenu ====== */
-section, main, .wrapper, .content, article {
-  padding-top: 10px !important;   /* Réduit l’espace supérieur */
-  margin-top: 0 !important;       /* Supprime toute marge externe haute */
+/* ====== Sécurité : empêche tout scroll horizontal ====== */
+html, body {
+  overflow-x: hidden !important;
+}
+
+/* ====== Responsive : petit écran ====== */
+@media (max-width: 950px) {
+  section, main, .wrapper, .content, article {
+    margin-left: 0 !important;
+    padding: 25px 20px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
 }
 
 /* ====== Responsive (mobile/tablette) ====== */
