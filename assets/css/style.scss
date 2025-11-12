@@ -125,6 +125,20 @@ header .social a:hover {
   text-decoration: underline !important;
 }
 
+/* ====== Correction de la barre de défilement horizontale ====== */
+html, body {
+  overflow-x: hidden !important; /* ✅ empêche le scroll horizontal */
+}
+
+header {
+  max-width: 520px !important; /* ✅ empêche tout dépassement de la colonne */
+  overflow-x: hidden !important;
+}
+
+main, section, .wrapper, .content {
+  overflow-x: hidden !important; /* sécurité supplémentaire */
+}
+
 /* ====== Partie droite (contenu principal) ====== */
 section, main, .wrapper {
   margin-left: 280px !important;   /* ajuste selon ton header */
