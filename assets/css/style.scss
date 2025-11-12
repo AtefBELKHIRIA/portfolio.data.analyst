@@ -213,10 +213,25 @@ section, main, .wrapper, .content, article {
   }
 }
 
-/* ====== Masquer le header global sur mobile ====== */
+/* ====== Correction : masquer le titre automatique du thème sur mobile ====== */
 @media (max-width: 900px) {
-  body > header:first-of-type {
+
+  /* Cache le header global ajouté par le thème (ex : minima, cayman, etc.) */
+  header.site-header,
+  .site-header,
+  .page-header,
+  .site-title,
+  .site-description {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  /* Assure que ton vrai header (celui de ton index.md) reste visible */
+  body > header:first-of-type {
+    display: block !important;
+    visibility: visible !important;
   }
 }
 
