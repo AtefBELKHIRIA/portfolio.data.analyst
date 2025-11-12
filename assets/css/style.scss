@@ -205,6 +205,8 @@ section, main, .wrapper, .content, article {
   header img.profile {
     width: 45% !important;               /* un peu plus large sur mobile */
     max-width: 180px !important;
+    margin-top: 20px !important;         /* descend la photo */
+    margin-bottom: 20px !important;     /* espace sous la photo */
   }
 
   header .contact, header .social {
