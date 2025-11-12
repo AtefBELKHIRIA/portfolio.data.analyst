@@ -234,6 +234,29 @@ section, main, .wrapper, .content, article {
     visibility: visible !important;
   }
 }
+/* ====== Suppression complète du header du thème (tous écrans) ====== */
+.site-header,
+.page-header,
+header[role="banner"],
+header.header,
+.site-title,
+.site-description {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ====== Garde uniquement ton header perso visible ====== */
+body > header:first-of-type {
+  display: block !important;
+  visibility: visible !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
 
 /* ====== Supprimer le footer GitHub Pages ====== */
 footer {
