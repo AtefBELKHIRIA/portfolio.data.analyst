@@ -142,37 +142,38 @@ main, section, .wrapper, .content {
 
 /* ====== Partie droite (contenu principal) ====== */
 section, main, .wrapper, .content, article {
-  /* La marge à gauche dépend de la largeur de la colonne fixe */
-  margin-left: clamp(420px, 25vw, 520px) !important;
+  /* Marge à gauche en fonction de la largeur de la colonne gauche */
+  margin-left: clamp(420px, 25vw, 520px) !important; 
 
-  /* ✅ Contenu plus large */
-  max-width: 1400px !important;  /* élargit considérablement la zone */
-  width: calc(100% - clamp(420px, 25vw, 520px)) !important;
-  margin-right: 0 !important;
+  /* Largeur et centrage du contenu */
+  width: calc(100% - clamp(420px, 25vw, 520px)) !important; 
+  max-width: 100% !important;  /* occupe toute la largeur possible */
+  margin-right: 0 !important;  
 
-  /* Espacements internes équilibrés */
-  padding: 40px 3vw !important;  /* réduit le padding horizontal */
-  padding-top: 10px !important;
+  /* Espacement interne */
+  padding: 20px 40px !important; /* top/bottom + left/right */
+  padding-top: 10px !important;   /* réduit l’espace du haut */
 
-  /* Apparence générale */
+  /* Apparence */
   background: #fff !important;
   box-sizing: border-box !important;
   min-height: 100vh !important;
   color: #333 !important;
 }
 
-/* ✅ Contenu du texte centré mais plus large */
+/* Contenu du texte du README.md élargi et lisible */
 section > *,
 main > *,
 .wrapper > *,
 .content > *,
 article > * {
-  max-width: 1200px !important;  /* élargit la zone de texte */
-  margin: 0 auto !important;     /* conserve un centrage harmonieux */
+  max-width: 100% !important;  /* permet au texte de s'étendre complètement */
+  margin: 0 !important;        /* supprime le centrage étroit */
+  padding-right: 20px !important; /* marge intérieure à droite */
   line-height: 1.6 !important;
 }
 
-/* ====== Empêche tout scroll horizontal ====== */
+/* ====== Sécurité : empêche scroll horizontal ====== */
 html, body {
   overflow-x: hidden !important;
 }
@@ -180,10 +181,10 @@ html, body {
 /* ====== Responsive : petit écran ====== */
 @media (max-width: 950px) {
   section, main, .wrapper, .content, article {
-    margin-left: 0 !important;
-    padding: 25px 20px !important;
+    margin-left: 0 !important;  /* la colonne gauche devient relative */
+    width: 100% !important;     /* occupe toute la largeur */
     max-width: 100% !important;
-    width: 100% !important;
+    padding: 20px !important;
   }
 
   section > *,
@@ -191,18 +192,7 @@ html, body {
   .wrapper > *,
   .content > *,
   article > * {
-    max-width: 100% !important;
-  }
-}
-
-
-/* ====== Responsive : petit écran ====== */
-@media (max-width: 950px) {
-  section, main, .wrapper, .content, article {
-    margin-left: 0 !important;
-    padding: 25px 20px !important;
-    max-width: 100% !important;
-    width: 100% !important;
+    max-width: 100% !important;  /* texte occupe tout l’espace horizontal */
   }
 }
 
