@@ -9,15 +9,15 @@ layout: default
   
   <div class="contact">
     <h3>Contact</h3>
-    <p>📞 {{ site.contact.phone }}</p>
-    <p>✉️ <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
+    <p>{{ site.contact.phone }}</p>
+    <p><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
   </div>
 
   <div class="social">
     <h3>Profils</h3>
     <p>
-      🔗 <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a><br>
-      💻 <a href="{{ site.social.github }}" target="_blank">GitHub</a>
+       <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a><br>
+       <a href="{{ site.social.github }}" target="_blank">GitHub</a>
     </p>
   </div>
 </header>
