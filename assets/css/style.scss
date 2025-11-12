@@ -213,11 +213,15 @@ section, main, .wrapper, .content, article {
   }
 }
 
-/* Masquer le titre et la description sur mobile */
+/* ====== Masquer le titre et la description sur mobile ====== */
 @media (max-width: 900px) {
-  .header-title,
-  .description {
+  header .header-title,
+  header .description {
     display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
 
