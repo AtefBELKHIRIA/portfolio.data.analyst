@@ -3,7 +3,7 @@ layout: default
 ---
 
 <header>
-  <h1>{{ site.title }}</h1>
+   <h1 class="header-title">{{ site.title }}</h1>
   <img src="{{ site.profile_image }}" alt="Photo de profil" class="profile">
    <!-- Ajout d'une classe "description" -->
   <p class="description">{{ site.description }}</p>
