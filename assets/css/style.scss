@@ -152,7 +152,8 @@ section, main, .wrapper {
 
   display: flex !important;
   flex-direction: column !important;
-  align-items: center !important;  /* centre horizontalement le texte */
+  /*align-items: center !important;  /* centre horizontalement le texte */
+  align-items: flex-start !important;  /* aligne tout à gauche */
 }
 
 /* ====== Contenu du texte du README ====== */
