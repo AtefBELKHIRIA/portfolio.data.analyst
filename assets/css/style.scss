@@ -216,7 +216,7 @@ section, main, .wrapper, .content, article {
 /* Masquer le titre et la description sur mobile */
 @media (max-width: 900px) {
   .header-title,
-  .header-description {
+  .description {
     display: none !important;
   }
 }
