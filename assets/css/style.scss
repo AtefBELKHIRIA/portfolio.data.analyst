@@ -159,7 +159,7 @@ section, main, .wrapper {
 
 /* ====== Contenu du texte du README ====== */
 .wrapper, .content, article {
-  max-width: clamp(700px, 75%, 1700px) !important; /* largeur responsive */
+  max-width: clamp(1700px, 75%, 3000px) !important; /* largeur responsive */
   width: 100% !important;
   margin: 0 !important;
   padding-right: 40px !important;  /* marge droite */
