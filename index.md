@@ -14,7 +14,7 @@ layout: default
   </div>
 
   <div class="social">
-    <h3>Me retrouver</h3>
+    <h3>Profils</h3>
     <p>
       🔗 <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a><br>
       💻 <a href="{{ site.social.github }}" target="_blank">GitHub</a>
