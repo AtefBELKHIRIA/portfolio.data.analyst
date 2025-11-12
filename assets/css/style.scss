@@ -60,7 +60,7 @@ header p.description {
   margin: 0 auto 25px auto !important;
   text-align: center !important;
   padding: 0 15px !important;
-  font-weight: bold !important;  /* texte en gras */
+  /*font-weight: bold !important;  /* texte en gras */
 }
 
 /* ====== SÉPARATEUR ENTRE BLOCS ====== */
@@ -100,7 +100,7 @@ header .contact a:hover {
   text-decoration: underline !important;
 }
 
-/* ====== ME RETROUVER ====== */
+/* ====== Profils ====== */
 header .social {
   width: 100% !important;
   margin-top: 15px !important;
@@ -121,6 +121,8 @@ header .social a {
   color: #0070c0 !important;
   text-decoration: none !important;
   font-size: 0.95rem !important;
+  display: block !important;      /* chaque lien sur sa ligne */
+  margin-bottom: 5px !important;  /* espace entre les liens */
 }
 
 header .social a:hover {
