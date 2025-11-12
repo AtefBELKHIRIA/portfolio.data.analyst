@@ -15,13 +15,13 @@ header {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
-  width: 520px !important;               /* Largeur de la colonne gauche */
+  width: 520px !important;
   height: 100vh !important;
-  background: #f5f5f5 !important;        /* Fond gris clair élégant */
+  background: #f5f5f5 !important;
   border-right: 1px solid #ddd !important;
-  padding: 35px 30px 40px 30px !important; /* Espacements équilibrés */
+  padding: 35px 30px 40px 30px !important;
   box-sizing: border-box !important;
-  overflow-y: auto !important;           /* Permet de scroller si trop de contenu */
+  overflow-y: auto !important;
   text-align: center !important;
   z-index: 10 !important;
   display: flex !important;
@@ -33,40 +33,48 @@ header {
 /* ====== TITRE (Nom / Prénom) ====== */
 header h1 {
   margin-top: 5px !important;
-  margin-bottom: 25px !important;
+  margin-bottom: 20px !important;
   font-size: 1.8rem !important;
-  color: rgb(0, 112, 192) !important;     /* Bleu professionnel */
+  color: rgb(0, 112, 192) !important; /* Bleu professionnel */
   font-weight: bold !important;
 }
 
 /* ====== PHOTO DE PROFIL ====== */
 header .profile {
-  width: 38% !important;                  /* Taille équilibrée */
+  width: 38% !important;
   max-width: 180px !important;
-  aspect-ratio: 1 / 1 !important;         /* Rend la photo parfaitement ronde */
+  aspect-ratio: 1 / 1 !important;
   border-radius: 50% !important;
   margin: 0 auto 20px auto !important;
   display: block !important;
   object-fit: cover !important;
-  border: 3px solid #ddd !important;      /* Léger contour gris */
+  border: 3px solid #ddd !important;
 }
 
 /* ====== DESCRIPTION ====== */
 header p.description {
   font-size: 1rem !important;
-  color: rgb(89, 89, 89) !important;      /* Gris neutre */
+  color: rgb(89, 89, 89) !important;
   line-height: 1.6 !important;
   margin: 0 auto 25px auto !important;
   text-align: center !important;
   padding: 0 15px !important;
 }
 
-/* ====== SECTION CONTACT ====== */
+/* ====== SÉPARATEUR ENTRE BLOCS ====== */
+header hr {
+  width: 80% !important;
+  border: none !important;
+  border-top: 1px solid #ccc !important;
+  margin: 20px auto !important;
+}
+
+/* ====== CONTACT ====== */
 header .contact {
   width: 100% !important;
-  margin-top: 15px !important;
-  text-align: left !important;
-  padding: 0 15px !important;
+  margin-top: 10px !important;
+  text-align: center !important; /* ✅ Centré */
+  padding: 0 10px !important;
 }
 
 header .contact h3 {
@@ -75,13 +83,14 @@ header .contact h3 {
   margin-bottom: 8px !important;
   border-bottom: 1px solid #ccc !important;
   padding-bottom: 3px !important;
+  display: inline-block !important;
 }
 
 header .contact p,
 header .contact a {
   color: #595959 !important;
   font-size: 0.95rem !important;
-  margin: 2px 0 !important;
+  margin: 4px 0 !important;
   text-decoration: none !important;
 }
 
@@ -89,12 +98,12 @@ header .contact a:hover {
   text-decoration: underline !important;
 }
 
-/* ====== SECTION ME RETROUVER ====== */
+/* ====== ME RETROUVER ====== */
 header .social {
   width: 100% !important;
-  margin-top: 20px !important;
-  text-align: left !important;
-  padding: 0 15px !important;
+  margin-top: 15px !important;
+  text-align: center !important; /* ✅ Centré */
+  padding: 0 10px !important;
 }
 
 header .social h3 {
@@ -103,6 +112,7 @@ header .social h3 {
   margin-bottom: 8px !important;
   border-bottom: 1px solid #ccc !important;
   padding-bottom: 3px !important;
+  display: inline-block !important;
 }
 
 header .social a {
