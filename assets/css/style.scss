@@ -148,21 +148,38 @@ section, main, .wrapper {
   background: #fff !important;
   box-sizing: border-box !important;
   min-height: 100vh !important;
-  max-width: 100% !important;      /* empêche la limitation de largeur */
-  width: auto !important;          /* autorise le contenu à s’étendre */
+  max-width: 100% !important;
+  width: auto !important;
+
+  /* Flex pour centrer le contenu horizontalement */
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;  /* centre horizontalement */
 }
 
+/* ====== Contenu du texte du README ====== */
 .wrapper, .content, article {
-  max-width: 100% !important;      /* étend tout le texte du README */
+  max-width: 100% !important;      /* occupe toute la largeur disponible */
   width: 100% !important;
   margin: 0 !important;
-  padding-right: 40px !important;  /* pour garder une marge à droite */
+  padding-right: 40px !important;  /* marge droite */
+  text-align: left !important;     /* alignement du texte */
 }
 
 /* ====== Réduction de l’espace en haut du contenu ====== */
 section, main, .wrapper, .content, article {
-  padding-top: 10px !important;   /* Réduit l’espace supérieur */
-  margin-top: 0 !important;       /* Supprime toute marge externe haute */
+  padding-top: 10px !important;
+  margin-top: 0 !important;
+}
+
+/* ====== Responsive ====== */
+@media (max-width: 950px) {
+  section, main, .wrapper, .content, article {
+    margin-left: 0 !important;  /* colonne gauche devient relative */
+    width: 100% !important;     /* texte occupe toute la largeur */
+    display: block !important;  /* supprime flex pour petit écran */
+    align-items: initial !important;
+  }
 }
 
 /* ====== Responsive (mobile/tablette) ====== */
