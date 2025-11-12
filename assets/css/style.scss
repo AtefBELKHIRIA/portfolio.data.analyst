@@ -213,48 +213,42 @@ section, main, .wrapper, .content, article {
   }
 }
 
-/* ====== Correction : masquer le titre automatique du thème sur mobile ====== */
-@media (max-width: 900px) {
-
-  /* Cache le header global ajouté par le thème (ex : minima, cayman, etc.) */
-  header.site-header,
-  .site-header,
-  .page-header,
-  .site-title,
-  .site-description {
-    display: none !important;
-    visibility: hidden !important;
-    height: 0 !important;
-    overflow: hidden !important;
-  }
-
-  /* Assure que ton vrai header (celui de ton index.md) reste visible */
-  body > header:first-of-type {
-    display: block !important;
-    visibility: visible !important;
-  }
-}
 /* ====== Suppression complète du header du thème (tous écrans) ====== */
 .site-header,
 .page-header,
 header[role="banner"],
-header.header,
-.site-title,
-.site-description {
+header.site-header,
+header.page-header,
+header.masthead,
+header[role="banner"],
+div.header,
+div.site-header,
+.header-wrapper,
+h1.site-title,
+p.site-description,
+nav.navbar,
+nav.site-nav,
+.main-header,
+.top-header {
   display: none !important;
   visibility: hidden !important;
+  opacity: 0 !important;
   height: 0 !important;
-  overflow: hidden !important;
   margin: 0 !important;
   padding: 0 !important;
+  overflow: hidden !important;
+  border: none !important;
 }
 
-/* ====== Garde uniquement ton header perso visible ====== */
+/* ====== Conservation de ton header personnalisé ====== */
 body > header:first-of-type {
   display: block !important;
   visibility: visible !important;
+  opacity: 1 !important;
   height: auto !important;
   overflow: visible !important;
+  margin: 0 auto !important;
+  padding: 20px !important;
 }
 
 
