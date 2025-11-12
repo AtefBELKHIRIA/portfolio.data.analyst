@@ -142,7 +142,7 @@ main, section, .wrapper, .content {
 
 /* ====== Partie droite (contenu principal) ====== */
 section, main, .wrapper {
-  margin-left: 160px !important;   /* espace fixe depuis la colonne gauche */
+  margin-left: 170px !important;   /* espace fixe depuis la colonne gauche */
   padding: 40px 40px 40px 40px !important; /* marge intérieure fixe sur tous les côtés */
   flex: 1 !important;
   background: #fff !important;
