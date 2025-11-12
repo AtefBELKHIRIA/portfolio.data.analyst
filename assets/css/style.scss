@@ -172,24 +172,44 @@ section, main, .wrapper, .content, article {
   margin-top: 0 !important;
 }
 
-/* ====== Responsive (mobile/tablette) ====== */
-@media (max-width: 1000px) {
+/* ====== Responsive mobile (écrans < 900px) ====== */
+@media (max-width: 900px) {
+
   body {
-    flex-direction: column !important;
+    flex-direction: column !important;   /* empile les colonnes */
+    align-items: center !important;      /* centre horizontalement */
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   header {
     position: relative !important;
-    width: 100% !important;
+    width: 100% !important;              /* prend toute la largeur de l’écran */
+    max-width: 100% !important;
     height: auto !important;
     border-right: none !important;
     border-bottom: 1px solid #ddd !important;
+    padding: 20px !important;
+    text-align: center !important;
   }
 
-  section {
-    margin-left: 0 !important;
-    width: 100% !important;
+  section, main, .wrapper, .content, article {
+    margin: 0 auto !important;           /* centre le contenu */
     padding: 20px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    text-align: left !important;         /* texte bien aligné */
+  }
+
+  header img.profile {
+    width: 45% !important;               /* un peu plus large sur mobile */
+    max-width: 180px !important;
+  }
+
+  header .contact, header .social {
+    text-align: center !important;
+    padding: 10px 0 !important;
   }
 }
 
