@@ -213,6 +213,15 @@ section, main, .wrapper, .content, article {
   }
 }
 
+/* ====== Masquer le titre et la description du README sur mobile ====== */
+@media (max-width: 900px) {
+  section h1:first-of-type,
+  section p:first-of-type {
+    display: none !important; /* cache le titre principal et le 1er paragraphe */
+  }
+}
+
+
 /* ====== Supprimer le footer GitHub Pages ====== */
 footer {
   display: none !important;
