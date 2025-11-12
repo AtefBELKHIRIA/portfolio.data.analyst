@@ -5,7 +5,8 @@ layout: default
 <header>
   <h1>{{ site.title }}</h1>
   <img src="{{ site.profile_image }}" alt="Photo de profil" class="profile">
-  <p>{{ site.description }}</p>
+   <!-- Ajout d'une classe "description" -->
+  <p class="description">{{ site.description }}</p>
   
   <div class="contact">
     <h3>Contact</h3>
