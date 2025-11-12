@@ -213,44 +213,13 @@ section, main, .wrapper, .content, article {
   }
 }
 
-/* ====== Suppression complète du header du thème (tous écrans) ====== */
-.site-header,
-.page-header,
-header[role="banner"],
-header.site-header,
-header.page-header,
-header.masthead,
-header[role="banner"],
-div.header,
-div.site-header,
-.header-wrapper,
-h1.site-title,
-p.site-description,
-nav.navbar,
-nav.site-nav,
-.main-header,
-.top-header {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  overflow: hidden !important;
-  border: none !important;
+/* Masquer le titre et la description sur mobile */
+@media (max-width: 900px) {
+  .header-title,
+  .header-description {
+    display: none !important;
+  }
 }
-
-/* ====== Conservation de ton header personnalisé ====== */
-body > header:first-of-type {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  height: auto !important;
-  overflow: visible !important;
-  margin: 0 auto !important;
-  padding: 20px !important;
-}
-
 
 /* ====== Supprimer le footer GitHub Pages ====== */
 footer {
