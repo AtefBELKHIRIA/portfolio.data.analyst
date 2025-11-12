@@ -146,12 +146,12 @@ section, main, .wrapper, .content, article {
   margin-left: clamp(420px, 25vw, 520px) !important; 
 
   /* Largeur et centrage du contenu */
-  width: calc(100% - clamp(420px, 25vw, 520px)) !important; 
+  width: calc(100% - clamp(600px, 25vw, 720px)) !important; 
   max-width: 100% !important;  /* occupe toute la largeur possible */
   margin-right: 0 !important;  
 
   /* Espacement interne */
-  padding: 100px 200px !important; /* top/bottom + left/right */
+  padding: 10px 20px !important; /* top/bottom + left/right */
   padding-top: 10px !important;   /* réduit l’espace du haut */
 
   /* Apparence */
