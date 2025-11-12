@@ -15,7 +15,7 @@ header {
   position: fixed !important;
   top: 0 !important;
   left: 0 !important;
-  width: 520px !important;
+  width: clamp(400px, 25vw, 520px) !important; /* largeur responsive */
   height: 100vh !important;
   background: #f5f5f5 !important;
   border-right: 1px solid #ddd !important;
@@ -73,7 +73,7 @@ header hr {
 header .contact {
   width: 100% !important;
   margin-top: 10px !important;
-  text-align: center !important; /* ✅ Centré */
+  text-align: center !important; /* Centré */
   padding: 0 10px !important;
 }
 
@@ -102,7 +102,7 @@ header .contact a:hover {
 header .social {
   width: 100% !important;
   margin-top: 15px !important;
-  text-align: center !important; /* ✅ Centré */
+  text-align: center !important; /* Centré */
   padding: 0 10px !important;
 }
 
@@ -127,11 +127,11 @@ header .social a:hover {
 
 /* ====== Correction de la barre de défilement horizontale ====== */
 html, body {
-  overflow-x: hidden !important; /* ✅ empêche le scroll horizontal */
+  overflow-x: hidden !important; /* empêche le scroll horizontal */
 }
 
 header {
-  max-width: 520px !important; /* ✅ empêche tout dépassement de la colonne */
+  max-width: 520px !important; /* empêche tout dépassement de la colonne */
   overflow-x: hidden !important;
 }
 
@@ -147,12 +147,12 @@ section, main, .wrapper {
   background: #fff !important;
   box-sizing: border-box !important;
   min-height: 100vh !important;
-  max-width: 100% !important;      /* ✅ empêche la limitation de largeur */
-  width: auto !important;          /* ✅ autorise le contenu à s’étendre */
+  max-width: 100% !important;      /* empêche la limitation de largeur */
+  width: auto !important;          /* autorise le contenu à s’étendre */
 }
 
 .wrapper, .content, article {
-  max-width: 100% !important;      /* ✅ étend tout le texte du README */
+  max-width: 100% !important;      /* étend tout le texte du README */
   width: 100% !important;
   margin: 0 !important;
   padding-right: 40px !important;  /* pour garder une marge à droite */
