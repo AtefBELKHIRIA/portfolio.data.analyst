@@ -142,27 +142,23 @@ main, section, .wrapper, .content {
 
 /* ====== Partie droite (contenu principal) ====== */
 section, main, .wrapper {
-  margin-left: 280px !important;   /* ajuste selon la largeur du header */
-  padding: 40px !important;
+  margin-left: 280px !important;   /* espace fixe depuis la colonne gauche */
+  padding: 40px 40px 40px 40px !important; /* marge intérieure fixe sur tous les côtés */
   flex: 1 !important;
   background: #fff !important;
   box-sizing: border-box !important;
   min-height: 100vh !important;
-  max-width: 100% !important;
   width: auto !important;
 
-  /* Flex pour centrer horizontalement */
   display: flex !important;
   flex-direction: column !important;
-  align-items: center !important;  /* centre horizontalement */
+  align-items: center !important;  /* centre horizontalement le texte */
 }
 
 /* ====== Contenu du texte du README ====== */
 .wrapper, .content, article {
-  max-width: clamp(3500px, 75%, 3500px) !important; /* largeur responsive */
-  width: 100% !important;
-  margin: 0 !important;
-  padding-right: 40px !important;  /* marge droite */
+  width: 100% !important;        /* prend tout l’espace restant */
+  max-width: none !important;    /* pas de limitation */
   text-align: left !important;
 }
 
@@ -170,17 +166,6 @@ section, main, .wrapper {
 section, main, .wrapper, .content, article {
   padding-top: 10px !important;
   margin-top: 0 !important;
-}
-
-/* ====== Responsive ====== */
-@media (max-width: 950px) {
-  section, main, .wrapper, .content, article {
-    margin-left: 0 !important;       /* colonne gauche devient relative */
-    width: 100% !important;          /* texte occupe toute la largeur */
-    display: block !important;       /* supprime flex pour petit écran */
-    align-items: initial !important;
-    padding: 20px !important;        /* padding intérieur réduit */
-  }
 }
 
 /* ====== Responsive (mobile/tablette) ====== */
