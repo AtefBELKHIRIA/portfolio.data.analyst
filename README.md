@@ -42,8 +42,6 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 
 ![Dashboard Screenshot](images/Dashboard.png)
 
----
-
 ###  2. Base de données des recettes (Database)
 
 - Enregistrement structuré et horodaté des recettes journalières.
@@ -53,89 +51,96 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 
  ![Data base Screenshot](images/DataBase.png)
 
----
-
 ###  3. Titres Restaurant – par émetteur
 
 - Suivi détaillé par prestataire : BIMPLI, Edenred, UP Déjeuner, Pluxee.
 - Montants collectés, versements réalisés, totaux par période.
-- Indicateurs de suivi pour éviter les écarts TR.
+- Indicateurs de suivi pour éviter les écarts titres restaurant.
 
  ![Titres Restaurant Screenshot](images/TitreRestaurant.png)
 
-###  **Data Analyst – France Food Company (Île-de-France)**  
-*Octobre 2023 – Aujourd’hui*  
-- Analyse des besoins utilisateurs (achats, ventes, production, logistique, comptabilité)  
-- Intégration et traitement des données dans **SAP Data Warehouse Cloud**  
-- Développement de jobs **Talend** connectés à SAP HANA  
-- Participation aux tests d’acceptation utilisateurs (UAT)  
+###  4. Reçus Caisse
 
-###  **Stage Data Analyst – France Food Company**  
-*Février 2023 – Juillet 2023*  
-- Automatisation du traitement des données sources (Talend, SQL)  
-- Création de dashboards Power BI et définition des KPIs  
-- Collaboration avec les équipes SAP et les utilisateurs finaux  
+- Gestion des justificatifs : monnaie, virements, chèques, factures.
+- Suivi des entrées et sorties autres que les encaissements.
+- Traçabilité complète au quotidien.
 
-###  **Analyst Supply Chain – LEONI (Tunisie)**  
-*Février 2022 – Juillet 2022*  
-- Rédaction de spécifications fonctionnelles et conception de KPIs  
-- Création de dashboards automatisés pour le suivi de la performance  
-- Analyse et correction des incidents de production  
+![Reçus Caisse Screenshot](images/ReçusCaisse.png)
 
----
+###  5. Écarts de caisse
+ 
+- Analyse automatique des écarts : 
+    - Entre montants encaissés et montants versés (espèces / Titre Restaurant). 
+- Alerte sur incohérences.
+- Identification rapide des anomalies par jour, opérateur ou terminal.
 
-##  Projets Réalisés
+![Ecarts Caisse Screenshot](images/EcartsCaisse.png)
 
-###  **Implantation du système LEPS – LEONI**
-- Mise en place d’un système de suivi instantané de la production  
-- Création de dashboards dynamiques sur l’avancement des étapes de production  
+###  6. Rapports de caisse
 
-###  **KPI Dashboard – LEONI**
-- Nettoyage, analyse et visualisation des données de production  
-- Élaboration de tableaux de bord interactifs pour les indicateurs clés  
+- Synthèse automatisée des :
+   - Écarts non justifiés
+   - Justificatifs manquants
+- Données prêtes à l’export (comptabilité, direction).
+- Simplifie les audits internes et externes.
 
----
+![Rapport Caisse Screenshot](images/RapportsCaisse.png)
 
-##  Formations
 
- **MBA Big Data & Intelligence Artificielle – ESTIAM, Paris (2023)**  
-> Hadoop, Spark, Talend, Scala, Python, NoSQL, Power BI, Data Science, Dataviz  
+###  7. E-mails automatisés
 
- **Cycle d’Ingénieur en Informatique Industrielle – ENIG, Tunisie (2019)**  
-> C, C++, Python, Java, SGBD, Cloud Computing, IA, IOT  
+- Module VBA d’envoi automatique d’emails aux responsables. 
+- Alertes sur écarts significatifs ou justificatifs non transmis.
+- Améliore la réactivité et le suivi qualité.
 
- **Cycle Préparatoire – IPEIM, Tunisie (2013)**  
-> Concours national d’accès aux écoles d’ingénieurs  
+![Email Caisse Screenshot](images/Email.png)
 
----
+###  8. Comparaison et rapprochement bancaire
 
-##  Certifications
+- Comparaison entre :
+  - Total Recettes Caisse
+  - Totaux Comptabilité / Banque 
+- Détection des différences mensuelles.
+- Fiabilisation du processus comptable.
 
--  **SQL for Data Scientists** – Cas pratiques et projets réels  
--  **Python for Data Scientists** – Analyse & Visualisation (Pandas, Matplotlib)  
+![Rapprochement Screenshot](images/Rapprochement.png)
 
 ---
 
-##  Langues
+##  Stack Technique
 
-- 🇫🇷 Français (courant)  
-- 🇬🇧 Anglais (professionnel)  
-- 🇮🇹 Italien (intermédiaire)  
+ **Technologies utilisées**
+   - Excel (macro-enabled .xlsm)
+   - VBA – Visual Basic for Applications
+
+ **Compétences techniques démontrées**
+   > Développement d’UserForms personnalisés
+> Gestion des événements (click, change, validate)
+> Création de modules VBA modulaires
+> Traitement dynamique des données (boucles, filtres, tris)
+> Validation et contrôle d’intégrité
+> Automatisation des exports et rapports
+> Conception d’interface utilisateur dans Excel
+> Structuration d’un fichier Excel multi-feuilles orienté application 
 
 ---
 
-##  Forces
+##  Architecture du projet
 
-- 🔹 Motivation & autonomie  
-- 🔹 Esprit d’analyse  
-- 🔹 Adaptabilité & rigueur  
+![Architecture Screenshot](images/Architecture.png)
+
+Chaque feuille remplit un rôle métier précis, et le code VBA assure la liaison, l’automatisation et la cohérence des données entre elles.
 
 ---
 
-##  Me retrouver
+##  Ce que ce projet démontre
 
--  **GitHub :** [https://github.com/AtefBELKHIRIA](https://github.com/AefBELKHIRIA)  
--  **LinkedIn :** [https://www.linkedin.com/in/atef-belkhiria-b615ab160/]  
+  ✔ Automatisation avancée dans Excel
+  ✔ Développement VBA structuré
+  ✔ Mise en place d’un mini système d'information interne
+  ✔ Sécurisation et fiabilisation d’un processus métier réel
+  ✔ Compréhension des flux financiers en magasin
+  ✔ Capacité à transformer un processus manuel → solution automatisée
 
 ---
 
