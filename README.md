@@ -40,19 +40,18 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 
 - Vue synthétique des performances du jour / de la période.
 
-![Dashboard Screenshot](images/.png)
+![Dashboard Screenshot](images/Dashboard.png)
 
 ---
 
-##  Compétences Techniques
+###  2. Base de données des recettes (Database)
 
-| Catégorie | Outils & Langages |
-|------------|------------------|
-| **Programmation** | Python, VBA, Java, CSS |
-| **Bases de données** | Oracle, SQL Server, MySQL |
-| **Outils Dataviz** | Power BI, Tableau, Google Analytics, SAP Analytics |
-| **ETL / Traitement de données** | Talend, SSIS, BusinessObjects DataServices |
-| **Outils de développement** | Visual Studio Code, Eclipse, PyCharm, Git |
+- Enregistrement structuré et horodaté des recettes journalières.
+- Montants par mode de paiement : espèces, CB, titres restaurant, etc.
+- Suivi des écarts et commentaires de caisse.
+- Fonctionne comme une base SQL simplifiée au sein d’Excel.
+
+ ![Dashboard Screenshot](images/base de données.png)
 
 ---
 
