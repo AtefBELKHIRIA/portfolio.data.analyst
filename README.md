@@ -51,11 +51,17 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 - Suivi des écarts et commentaires de caisse.
 - Fonctionne comme une base SQL simplifiée au sein d’Excel.
 
- ![Dashboard Screenshot](images/base de données.png)
+ ![Data base Screenshot](images/DataBase.png)
 
 ---
 
-##  Expériences Professionnelles
+###  3. Titres Restaurant – par émetteur
+
+- Suivi détaillé par prestataire : BIMPLI, Edenred, UP Déjeuner, Pluxee.
+- Montants collectés, versements réalisés, totaux par période.
+- Indicateurs de suivi pour éviter les écarts TR.
+
+ ![Titres Restaurant Screenshot](images/TitreRestaurant.png)
 
 ###  **Data Analyst – France Food Company (Île-de-France)**  
 *Octobre 2023 – Aujourd’hui*  
