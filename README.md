@@ -40,7 +40,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 
 - Vue synthétique des performances du jour / de la période.
 
-![Dashboard Screenshot](images/dashboard.png)
+![Dashboard Screenshot](images/.png)
 
 ---
 
