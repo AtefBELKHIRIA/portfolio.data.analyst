@@ -1,17 +1,44 @@
-**Data Analyst passionné**, avec plusieurs années d’expérience dans le traitement, la modélisation et la visualisation de données.  
-J’interviens sur des projets dans divers secteurs (supply chain, commerce, sport) où je transforme les données brutes en **informations exploitables** pour la prise de décision.
+# Projet : Gestion de caisse d'un supermarché (Excel & VBA Application)
 
-Actuellement **Data Analyst chez France Food Company (Île-de-France)**, je reste motivé par les avancées du **cloud**, de la **data science** et des **solutions analytiques modernes**.
+Application Excel VBA pour gérer les recettes de caisse, détecter les écarts, suivre les titres restaurant, automatiser les rapports et réaliser le rapprochement bancaire. Formulaires, macros, calculs automatiques et tableau de bord intégré.
 
 ---
 
-## À propos de moi
+## Objectifs du projet
 
--  Analyse des besoins métiers et rédaction de spécifications fonctionnelles  
--  Conception et intégration de pipelines de données (Talend, SSIS, SAP Data Warehouse Cloud)  
--  Création de dashboards dynamiques (Power BI, Tableau)  
--  Expertise en SQL, Python, ETL et visualisation de données  
--  Intéressé par les architectures data modernes et la gouvernance des données  
+- Centraliser les données de caisse en un seul endroit.
+
+- Automatiser les tâches manuelles (calculs, rapports, alertes).
+
+- Suivre en détail les titres restaurant par émetteur.
+
+- Détecter automatiquement les écarts de caisse.
+
+- Structurer la traçabilité des justificatifs.
+
+- Faciliter le rapprochement bancaire mensuel.
+
+* Améliorer la fiabilité et la transparence du processus de caisse.
+
+---
+
+## Fonctionnalités principales
+
+### 1. Dashboard interactif
+
+- Accueil central de l’application.
+
+- Raccourcis vers les formulaires de Saisie, Recherche, Titres Restaurant, Écarts Caisse.
+
+- Indicateurs clés :
+
+  - Montants titres restaurant reçus et versés
+
+  - Écarts de caisse constatés
+
+  - Montants encaissés par chèque et par virement
+
+- Vue synthétique des performances du jour / de la période.
 
 ---
 
