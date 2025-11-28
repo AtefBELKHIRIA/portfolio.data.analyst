@@ -1,4 +1,4 @@
-# Projet : Gestion de caisse d'un supermarché (Excel & VBA Application)
+## Projet : Excel & VBA Application (Gestion de caisse d'un supermarché)
 
 Application Excel VBA pour gérer les recettes de caisse, détecter les écarts, suivre les titres restaurant, automatiser les rapports et réaliser le rapprochement bancaire. Formulaires, macros, calculs automatiques et tableau de bord intégré.
 
@@ -22,9 +22,9 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 
 ---
 
-## Fonctionnalités principales
+### Fonctionnalités principales
 
-### 1. Dashboard interactif
+#### 1. Dashboard interactif
 
 - Accueil central de l’application.
 
