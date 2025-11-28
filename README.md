@@ -161,4 +161,74 @@ Chaque feuille assure un rôle métier dédié, et le VBA garantit l’automatis
 
 ---
 
+# Projet : Rapport Power BI - Analyse des Joueurs, Cadres et Clubs de Hockey (Île-de-France)
+
+Ce projet Power BI a été conçu pour la Ligue régionale de hockey sur glace d’Île-de-France afin d’assurer un suivi avancé de l’évolution des joueurs, des cadres, et des clubs sur plusieurs saisons.
+Il met en œuvre différentes techniques de modélisation, visualisation et analyse pour offrir un tableau de bord complet, dynamique et exploitable par les instances sportives.
+
+---
+
+## Approche technique
+
+---
+
+### 1. Modélisation des données
+
+- Construction d’un modèle en étoile optimisé, comprenant :
+  - des tables de faits : effectifs, licences, mouvements interclubs
+  - des tables de dimensions : clubs, catégories, saisons, joueurs
+- Normalisation et création de relations un-à-plusieurs pour une navigation cohérente entre les différentes analyses.
+- Mise en place de colonnes calculées pour :
+  - identifier les nouveaux joueurs
+  - détecter les mouvements (sortants/entrants)
+  - catégoriser les licences (mineurs, adultes, catégories U)
+
+---
+
+### 2. Mesures DAX clés
+
+Création de mesures DAX permettant des analyses temporelles fiables :
+- Nb Joueurs, Nb Cadres, Nb Clubs Actifs
+- Taux de fidélisation
+- Joueurs sortants / entrants / restants
+- Variation inter-saison
+- Calculs dynamiques basés sur le contexte filtré (club, saison, catégorie)
+Ces mesures sont pensées pour garantir :
+- une performance optimale,
+- des résultats cohérents lors du filtrage croisé,
+- une flexibilité pour de futures évolutions du modèle.
+
+---
+## Fonctionnalités principales
+
+---
+
+### 1. Analyse multi-niveaux des effectifs
+
+Le rapport permet une lecture détaillée du joueur à la ligue, en passant par le club, grâce à :
+  - des segments dynamiques (club, saison, catégorie)
+  - des analyses croisées
+  - une navigation fluide entre pages
+=> compréhension fine de la structure des effectifs et identification des tendances par population.
+
+<div align="center">
+  <img src="images/Dashboard.png" style="max-width:100%; height:auto;" width="750">
+</div>
+
+---
+
+### 2. Suivi de l’évolution sur plusieurs saisons
+
+Plusieurs visualisations permettent d’observer l’évolution :
+  - du nombre de joueurs par saison
+  - des catégories d’âge
+  - des premières licences
+  - des cadres
+=> Valeur ajoutée : capacité à évaluer la progression ou la stagnation des clubs et des effectifs.
+
+<div align="center">
+  <img src="images/DataBase.png" style="max-width:100%; height:auto;" width="750">
+</div>
+
+---
 > _“Les données racontent toujours une histoire — il suffit de savoir comment les écouter.”_
