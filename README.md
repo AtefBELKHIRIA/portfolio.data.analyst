@@ -117,7 +117,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 - Fiabilisation comptable.
 
 <div align="center">
-  <img src="images/Rapprochement.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/Comparaison.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ---
