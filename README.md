@@ -209,11 +209,11 @@ Le rapport permet une lecture détaillée du joueur à la ligue, en passant par 
   - des segments dynamiques (club, saison, catégorie)
   - des analyses croisées
   - une navigation fluide entre pages
-=> compréhension fine de la structure des effectifs et identification des tendances par population.
 
 <div align="center">
   <img src="images/Dashboard.png" style="max-width:100%; height:auto;" width="750">
 </div>
+Compréhension fine de la structure des effectifs et identification des tendances par population.
 
 ---
 
@@ -224,11 +224,89 @@ Plusieurs visualisations permettent d’observer l’évolution :
   - des catégories d’âge
   - des premières licences
   - des cadres
-=> Valeur ajoutée : capacité à évaluer la progression ou la stagnation des clubs et des effectifs.
 
 <div align="center">
   <img src="images/DataBase.png" style="max-width:100%; height:auto;" width="750">
 </div>
+Evaluer la progression ou la stagnation des clubs et des effectifs.
 
 ---
+
+### 3. Analyse complète de la mobilité
+
+Une section spécialement dédiée met en avant :
+  - le pourcentage de joueurs quittant la région
+  - les flux entrants et sortants entre clubs
+  - des filtres « Club d’origine » / « Club destinataire »
+
+<div align="center">
+  <img src="images/Dashboard.png" style="max-width:100%; height:auto;" width="750">
+</div>
+visibilité précise sur les mouvements internes, utile pour la stratégie de développement.
+
+---
+
+### 4. Mesure du taux de fidélisation
+
+Le rapport calcule automatiquement :
+  - la part de joueurs restants d’une saison à l’autre
+  - les nouveaux inscrits
+  - les départs
+
+<div align="center">
+  <img src="images/DataBase.png" style="max-width:100%; height:auto;" width="750">
+</div>
+Indicateur essentiel pour mesurer la stabilité des clubs et orienter les actions de fidélisation.
+
+---
+
+### 5. Suivi individuel des joueurs
+
+Grâce à une recherche par :
+  - code adhérent
+  - nom / prénom
+  - année de naissance
+Le rapport affiche l’ensemble du parcours d’un joueur : clubs, saisons, catégories, mouvement éventuels.
+
+<div align="center">
+  <img src="images/Dashboard.png" style="max-width:100%; height:auto;" width="750">
+</div>
+outil administratif robuste pour les dirigeants et responsables de la ligue.
+
+---
+
+### 6. Analyse de la stabilité des clubs
+
+Un volet complet dédié aux clubs permet :
+  - de visualiser les clubs actifs par saison
+  - d’identifier les entrées/sorties
+  - de suivre l’évolution structurelle de la ligue
+
+<div align="center">
+  <img src="images/DataBase.png" style="max-width:100%; height:auto;" width="750">
+</div>
+Compréhension de la dynamique régionale et détection des zones à renforcer.
+
+---
+## Stack technique
+
+---
+
+###  Technologies utilisées
+
+  - **Power BI Desktop**
+  - **DAX** (mesures, colonnes calculées)
+  - **Power Query** (nettoyage & transformations)
+  - **Modélisation en étoile** (faits / dimensions)
+  - Visualisations Power BI : tornades, matrices, KPI, histogrammes empilés, graphiques combinés
+
+###  Compétences démontrées
+
+  - Modélisation de données et optimisation des relations
+  - Création de mesures DAX avancées (fidélisation, mobilité, évolutions temporelles)
+  - Analyse statistique et segmentation des joueurs
+  - Construction d’analyses multi-saisons
+  - Data storytelling : structuration du rapport, navigation, filtres intelligents
+  - UX/UI pour tableaux de bord interactifs
+
 > _“Les données racontent toujours une histoire — il suffit de savoir comment les écouter.”_
