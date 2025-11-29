@@ -242,7 +242,7 @@ Une section spécialement dédiée met en avant :
 <div align="center">
   <img src="images/MobilitéJoueurs.png" style="max-width:100%; height:auto;" width="750">
 </div>
-visibilité précise sur les mouvements internes, utile pour la stratégie de développement.
+Visibilité précise sur les mouvements internes, utile pour la stratégie de développement.
 
 ---
 
@@ -271,7 +271,7 @@ Le rapport affiche l’ensemble du parcours d’un joueur : clubs, saisons, cat�
 <div align="center">
   <img src="images/ParcoursJoueurs.png" style="max-width:100%; height:auto;" width="750">
 </div>
-outil administratif robuste pour les dirigeants et responsables de la ligue.
+Outil administratif robuste pour les dirigeants et responsables de la ligue.
 
 ---
 
