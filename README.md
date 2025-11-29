@@ -172,7 +172,7 @@ Il met en œuvre différentes techniques de modélisation, visualisation et anal
 
 ---
 
-### 1. Modélisation des données
+###  Modélisation des données
 
 - Construction d’un modèle en étoile optimisé, comprenant :
   - des tables de faits : effectifs, licences, mouvements interclubs
@@ -185,7 +185,7 @@ Il met en œuvre différentes techniques de modélisation, visualisation et anal
 
 ---
 
-### 2. Mesures DAX clés
+###  Mesures DAX clés
 
 Création de mesures DAX permettant des analyses temporelles fiables :
 - Nb Joueurs, Nb Cadres, Nb Clubs Actifs
@@ -211,7 +211,7 @@ Le rapport permet une lecture détaillée du joueur à la ligue, en passant par 
   - une navigation fluide entre pages
 
 <div align="center">
-  <img src="images/Dashboard.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/EvolutionCadres&Joueurs.png" style="max-width:100%; height:auto;" width="750">
 </div>
 Compréhension fine de la structure des effectifs et identification des tendances par population.
 
@@ -226,7 +226,7 @@ Plusieurs visualisations permettent d’observer l’évolution :
   - des cadres
 
 <div align="center">
-  <img src="images/DataBase.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/EvolutionJoueurs.png" style="max-width:100%; height:auto;" width="750">
 </div>
 Evaluer la progression ou la stagnation des clubs et des effectifs.
 
@@ -240,7 +240,7 @@ Une section spécialement dédiée met en avant :
   - des filtres « Club d’origine » / « Club destinataire »
 
 <div align="center">
-  <img src="images/Dashboard.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/MobilitéJoueurs.png" style="max-width:100%; height:auto;" width="750">
 </div>
 visibilité précise sur les mouvements internes, utile pour la stratégie de développement.
 
@@ -254,7 +254,7 @@ Le rapport calcule automatiquement :
   - les départs
 
 <div align="center">
-  <img src="images/DataBase.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/FidelisationJoueurs.png" style="max-width:100%; height:auto;" width="750">
 </div>
 Indicateur essentiel pour mesurer la stabilité des clubs et orienter les actions de fidélisation.
 
@@ -269,7 +269,7 @@ Grâce à une recherche par :
 Le rapport affiche l’ensemble du parcours d’un joueur : clubs, saisons, catégories, mouvement éventuels.
 
 <div align="center">
-  <img src="images/Dashboard.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ParcoursJoueurs.png" style="max-width:100%; height:auto;" width="750">
 </div>
 outil administratif robuste pour les dirigeants et responsables de la ligue.
 
@@ -283,7 +283,7 @@ Un volet complet dédié aux clubs permet :
   - de suivre l’évolution structurelle de la ligue
 
 <div align="center">
-  <img src="images/DataBase.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/EvolutionClubs.png" style="max-width:100%; height:auto;" width="750">
 </div>
 Compréhension de la dynamique régionale et détection des zones à renforcer.
 
