@@ -1,19 +1,5 @@
 <!-- Force Jekyll to render correctly -->
 <!-- Responsive-friendly README -->
-# *CERTIFICATIONS*
-
-## Certification Associé Analyste de données : Microsoft Power BI
----
-### Compétences mesurées
-- Préparer les données
-- Modéliser les données
-- Visualiser et analyser les données
-- Gérer et sécuriser Power BI
-
-<div align="center">
-  <img src="images/CertificatPowerBI.png" style="max-width:100%; height:auto;" width="750">
-</div>
-
 # *PROJETS*
 
 # Projet : Excel & VBA Application (Gestion de caisse d'un supermarché)
@@ -324,5 +310,21 @@ Compréhension de la dynamique régionale et détection des zones à renforcer.
   - Construction d’analyses multi-saisons
   - Data storytelling : structuration du rapport, navigation, filtres intelligents
   - UX/UI pour tableaux de bord interactifs
+
+# *CERTIFICATIONS*
+
+## Certification Associé Analyste de données : Microsoft Power BI
+---
+### Compétences mesurées
+- Préparer les données
+- Modéliser les données
+- Visualiser et analyser les données
+- Gérer et sécuriser Power BI
+
+<div align="center">
+  <img src="images/CertificatPowerBI.png" style="max-width:100%; height:auto;" width="750">
+</div>
+
+[<img src="https://img.shields.io/badge/Microsoft-Certification-0078D4?style=for-the-badge&logo=microsoft&logoColor=white">]([TON_URL](https://learn.microsoft.com/api/credentials/share/fr-fr/AtefBELKHIRIA-0434/7B8FB60F6B321BF3?sharingId=150428D83549B70C))
 
 > _“Les données racontent toujours une histoire — il suffit de savoir comment les écouter.”_
