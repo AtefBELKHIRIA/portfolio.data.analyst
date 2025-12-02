@@ -313,7 +313,7 @@ Compréhension de la dynamique régionale et détection des zones à renforcer.
 
 # *CERTIFICATIONS*
 
-## Certification Associé Analyste de données : Microsoft Power BI
+## Certificat : Associé Analyste de données - Microsoft Power BI
 ---
 ### Compétences mesurées
 - Préparer les données
