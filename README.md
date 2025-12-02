@@ -314,7 +314,7 @@ Compréhension de la dynamique régionale et détection des zones à renforcer.
 ---
 
 > Vous pouvez regarder le projet en vidéo ici : 
-> [Lien vers la vidéo](https://www.canva.com/design/DAG6Xo_BRtw/YcdCnptYYXwKyfznMxrKpQ/edit)
+> [Lien vers la vidéo](https://www.canva.com/design/DAG6Xo_BRtw/YS8Ic3MUTO7FK9zMdrj31A/watch?utm_content=DAG6Xo_BRtw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h98485160fe)
 
 ---
 
