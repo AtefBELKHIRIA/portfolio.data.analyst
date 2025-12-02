@@ -311,6 +311,13 @@ Compréhension de la dynamique régionale et détection des zones à renforcer.
   - Data storytelling : structuration du rapport, navigation, filtres intelligents
   - UX/UI pour tableaux de bord interactifs
 
+---
+
+> Vous pouvez regarder le projet en vidéo ici : 
+> [Lien vers la vidéo](https://github.com/AtefBELKHIRIA/portfolio.data.analyst/releases/download/v1.0/Video-Stage-PowerBI.mp4)
+
+---
+
 # *CERTIFICATIONS*
 
 ## Certificat : Associé Analyste de données - Microsoft Power BI
