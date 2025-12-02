@@ -163,6 +163,11 @@ Chaque feuille assure un rôle métier dédié, et le VBA garantit l’automatis
 
 ---
 
+> Vous pouvez regarder le projet en vidéo ici :
+> [Lien vers la vidéo](https://www.canva.com/design/DAG6Xr5cqsk/YXBdGxns0ZAj63TosDjPVA/watch?utm_content=DAG6Xr5cqsk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h78948ab92a)
+
+---
+
 # Projet : Rapport Power BI - Analyse des Joueurs, Cadres et Clubs de Hockey (Île-de-France)
 
 Ce projet Power BI a été conçu pour la Ligue régionale de hockey sur glace d’Île-de-France afin d’assurer un suivi avancé de l’évolution des joueurs, des cadres, et des clubs sur plusieurs saisons.
