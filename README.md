@@ -325,7 +325,8 @@ Compréhension de la dynamique régionale et détection des zones à renforcer.
   <img src="images/CertificatPowerBI.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
-[![Microsoft Certification](https://img.shields.io/badge/Certification-Microsoft-blue?logo=microsoft)]([TON_URL](https://learn.microsoft.com/api/credentials/share/fr-fr/AtefBELKHIRIA-0434/7B8FB60F6B321BF3?sharingId=150428D83549B70C))
-
+> **Certification Microsoft :**  
+> Vous pouvez consulter mon certificat officiel ici :  
+> [Accéder au certificat Microsoft]([TON_URL](https://learn.microsoft.com/api/credentials/share/fr-fr/AtefBELKHIRIA-0434/7B8FB60F6B321BF3?sharingId=150428D83549B70C))
 
 > _“Les données racontent toujours une histoire — il suffit de savoir comment les écouter.”_
