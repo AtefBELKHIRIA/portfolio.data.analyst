@@ -1,6 +1,20 @@
 <!-- Force Jekyll to render correctly -->
 <!-- Responsive-friendly README -->
-# **PROJETS**
+# *CERTIFICATIONS*
+
+## Certification Associé Analyste de données : Microsoft Power BI
+---
+### Compétences mesurées
+- Préparer les données
+- Modéliser les données
+- Visualiser et analyser les données
+- Gérer et sécuriser Power BI
+
+<div align="center">
+  <img src="images/CertificatPowerBI.png" style="max-width:100%; height:auto;" width="750">
+</div>
+
+# *PROJETS*
 
 # Projet : Excel & VBA Application (Gestion de caisse d'un supermarché)
 
