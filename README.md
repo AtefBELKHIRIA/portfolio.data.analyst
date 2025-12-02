@@ -314,7 +314,7 @@ Compréhension de la dynamique régionale et détection des zones à renforcer.
 ---
 
 > Vous pouvez regarder le projet en vidéo ici : 
-> [Lien vers la vidéo](https://github.com/AtefBELKHIRIA/portfolio.data.analyst/releases/download/v1.0/Video-Stage-PowerBI.mp4)
+> [Lien vers la vidéo](https://www.canva.com/design/DAG6Xo_BRtw/YcdCnptYYXwKyfznMxrKpQ/edit)
 
 ---
 
