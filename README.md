@@ -295,8 +295,57 @@ Un volet complet dédié aux clubs permet :
 Compréhension de la dynamique régionale et détection des zones à renforcer.
 
 ---
-## Stack technique
 
+## Publication & Déploiement sur Power BI Service
+
+L’un des aspects essentiels de ce projet a été la mise en place d’un processus complet de **publication, maintenance et consultation cloud** via Power BI Service.
+Ce déploiement permet de rendre le rapport accessible en ligne, sécurisé et utilisable aussi bien sur ordinateur que sur smartphone.
+
+---
+
+### Processus de déploiement
+- Publication directe depuis **Power BI Desktop** vers Power BI Service via un espace de travail dédié.  
+- Configuration des paramètres du dataset : actualisation, sécurité, gestion des sources.  
+- Activation de la **vue mobile** dans Power BI Service pour garantir une expérience optimale sur l’application Power BI.  
+- Mise en place des options de partage pour permettre l’accès contrôlé aux membres de la ligue.
+
+---
+### Valeur ajoutée
+- **Accessibilité 24/7** du rapport via le cloud.  
+- **Synchronisation automatique** entre la version Desktop et la version en ligne.  
+- Consultation fluide sur **application mobile Power BI (iOS/Android)** grâce à la mise en page mobile.  
+- Possibilité d’intégration dans un site interne ou via un lien sécurisé.  
+- Sécurité renforcée grâce à la gestion des rôles et des permissions.
+
+---
+### Exemple : accès mobile via Power BI Service
+Les utilisateurs peuvent accéder au tableau de bord :
+- depuis l’app Power BI,  
+- depuis app.powerbi.com sur navigateur mobile,  
+- ou via un lien partagé sécurisé.
+
+---
+**Voici quelques aperçus :**
+
+####  Page d'accueil_mobile
+<div align="center">
+  <img src="images/ProjetPowerBI/MobileAcceuil.png" style="max-width:100%; height:auto;" width="750">
+</div>
+
+####  Page Évolution joueurs
+<div align="center">
+  <img src="images/ProjetPowerBI/MobileEvolutionJoueurs.png" style="max-width:100%; height:auto;" width="750">
+</div>
+
+####  Page Parcours des joueurs
+<div align="center">
+  <img src="images/ProjetPowerBI/MobileParcoursJoueurs.png" style="max-width:100%; height:auto;" width="750">
+</div>
+
+Cela fait du rapport un outil utilisable en réunion, en déplacement ou sur le terrain.
+
+---
+## Stack technique
 ---
 
 ###  Technologies utilisées
