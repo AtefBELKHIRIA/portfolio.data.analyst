@@ -32,7 +32,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 - Vue synthétique des performances.
 
 <div align="center">
-  <img src="images/Dashboard.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetExcelVBA/Dashboard.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ---
@@ -45,7 +45,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 - Fonctionne comme une base SQL simplifiée.
 
 <div align="center">
-  <img src="images/DataBase.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetExcelVBA/DataBase.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ---
@@ -57,7 +57,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 - Indicateurs pour prévenir les écarts TR.
 
 <div align="center">
-  <img src="images/TitreRestaurant.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetExcelVBA/TitreRestaurant.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ---
@@ -69,7 +69,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 - Traçabilité complète.
 
 <div align="center">
-  <img src="images/ReçusCaisse.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetExcelVBA/ReçusCaisse.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ---
@@ -81,7 +81,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 - Identification des anomalies : jour, terminal, opérateur.
 
 <div align="center">
-  <img src="images/EcartsCaisse.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetExcelVBA/EcartsCaisse.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ---
@@ -95,7 +95,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 - Aide aux audits internes et externes.
 
 <div align="center">
-  <img src="images/RapportsCaisse.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetExcelVBA/RapportsCaisse.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ---
@@ -107,7 +107,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 - Amélioration du suivi opérationnel.
 
 <div align="center">
-  <img src="images/Email.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetExcelVBA/Email.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ---
@@ -119,7 +119,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 - Fiabilisation comptable.
 
 <div align="center">
-  <img src="images/Comparaison.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetExcelVBA/Comparaison.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ---
@@ -145,7 +145,7 @@ Application Excel VBA pour gérer les recettes de caisse, détecter les écarts,
 ## Architecture du projet
 
 <div align="center">
-  <img src="images/Architecture.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetExcelVBA/Architecture.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 Chaque feuille assure un rôle métier dédié, et le VBA garantit l’automatisation et la cohérence globale.
