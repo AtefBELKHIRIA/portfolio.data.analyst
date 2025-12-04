@@ -18,7 +18,6 @@ layout: default
     <h3>Profils</h3>
     <p>
        <a href="{{ site.social.linkedin }}" target="_blank">LinkedIn</a><br>
-       <a href="{{ site.social.github }}" target="_blank">GitHub</a>
     </p>
   </div>
 </header>
