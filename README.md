@@ -303,13 +303,6 @@ Ce déploiement permet de rendre le rapport accessible en ligne, sécurisé et u
 
 ---
 
-### Processus de déploiement
-- Publication directe depuis **Power BI Desktop** vers Power BI Service via un espace de travail dédié.  
-- Configuration des paramètres du dataset : actualisation, sécurité, gestion des sources.  
-- Activation de la **vue mobile** dans Power BI Service pour garantir une expérience optimale sur l’application Power BI.  
-- Mise en place des options de partage pour permettre l’accès contrôlé aux membres de la ligue.
-
----
 ### Valeur ajoutée
 - **Accessibilité 24/7** du rapport via le cloud.  
 - **Synchronisation automatique** entre la version Desktop et la version en ligne.  
@@ -318,7 +311,7 @@ Ce déploiement permet de rendre le rapport accessible en ligne, sécurisé et u
 - Sécurité renforcée grâce à la gestion des rôles et des permissions.
 
 ---
-### Exemple : accès mobile via Power BI Service
+### L'accès mobile via Power BI Service
 Les utilisateurs peuvent accéder au tableau de bord :
 - depuis l’app Power BI,  
 - depuis app.powerbi.com sur navigateur mobile,  
@@ -327,19 +320,8 @@ Les utilisateurs peuvent accéder au tableau de bord :
 ---
 **Voici quelques aperçus :**
 
-####  Page d'accueil_mobile
 <div align="center">
-  <img src="images/ProjetPowerBI/MobileAccueil.png" style="max-width:100%; height:auto;" width="750">
-</div>
-
-####  Page Évolution joueurs
-<div align="center">
-  <img src="images/ProjetPowerBI/MobileEvolutionCadres.png" style="max-width:100%; height:auto;" width="750">
-</div>
-
-####  Page Parcours des joueurs
-<div align="center">
-  <img src="images/ProjetPowerBI/MobileParcoursJoueurs.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetPowerBI/CapturesPagesMobile.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 Cela fait du rapport un outil utilisable en réunion, en déplacement ou sur le terrain.
