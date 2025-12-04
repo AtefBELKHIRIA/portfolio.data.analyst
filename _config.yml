@@ -12,7 +12,7 @@ contact:
 # Liens sociaux
 social:
   linkedin: "https://www.linkedin.com/in/atef-belkhiria-b615ab160/"
-  github: "https://github.com/AtefBELKHIRIA"
+  github: "https://github.com/AtefBELKHIRIA?tab=projects"
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
