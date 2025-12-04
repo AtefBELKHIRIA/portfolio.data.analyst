@@ -318,7 +318,7 @@ Les utilisateurs peuvent accéder au tableau de bord :
 - ou via un lien partagé sécurisé.
 
 ---
-**Voici quelques aperçus :**
+**Voici quelques aperçus :** Page d'accueil, Evolution des Cadres & Joueurs et Page Parcours des Joueurs
 
 <div align="center">
   <img src="images/ProjetPowerBI/CapturesPagesMobile.png" style="max-width:100%; height:auto;" width="750">
