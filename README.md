@@ -324,8 +324,6 @@ Les utilisateurs peuvent accéder au tableau de bord :
   <img src="images/ProjetPowerBI/CapturesPagesMobile.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
-Cela fait du rapport un outil utilisable en réunion, en déplacement ou sur le terrain.
-
 ---
 ## Stack technique
 ---
