@@ -329,12 +329,12 @@ Les utilisateurs peuvent accéder au tableau de bord :
 
 ####  Page d'accueil_mobile
 <div align="center">
-  <img src="images/ProjetPowerBI/MobileAcceuil.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetPowerBI/MobileAccueil.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ####  Page Évolution joueurs
 <div align="center">
-  <img src="images/ProjetPowerBI/MobileEvolutionJoueurs.png" style="max-width:100%; height:auto;" width="750">
+  <img src="images/ProjetPowerBI/MobileEvolutionCadres.png" style="max-width:100%; height:auto;" width="750">
 </div>
 
 ####  Page Parcours des joueurs
