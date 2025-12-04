@@ -313,9 +313,9 @@ Ce déploiement permet de rendre le rapport accessible en ligne, sécurisé et u
 ---
 ### L'accès mobile via Power BI Service
 Les utilisateurs peuvent accéder au tableau de bord :
-- depuis l’app Power BI,  
-- depuis app.powerbi.com sur navigateur mobile,  
-- ou via un lien partagé sécurisé.
+- depuis l’app Power BI
+- depuis app.powerbi.com sur navigateur mobile
+- ou via un lien partagé sécurisé
 
 ---
 **Voici quelques aperçus :** Page d'accueil, Evolution des Cadres & Joueurs et Page Parcours des Joueurs
