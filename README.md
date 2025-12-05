@@ -163,10 +163,10 @@ Chaque feuille assure un rôle métier dédié, et le VBA garantit l’automatis
 
 ---
 
-> Vous trouverez le détail du projet sur GitHub ici :
+> **Vous trouverez le détail du projet sur GitHub ici :**
 > [Lien vers le projet](https://github.com/users/AtefBELKHIRIA/projects/6/views/1)
 
-> Vous pouvez visionner le projet en vidéo ici : 
+> **Vous pouvez visionner le projet en vidéo ici :** 
 > [Lien vers la vidéo](https://www.canva.com/design/DAG6Xr5cqsk/YXBdGxns0ZAj63TosDjPVA/watch?utm_content=DAG6Xr5cqsk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h78948ab92a)
 
 ---
@@ -350,10 +350,10 @@ Les utilisateurs peuvent accéder au tableau de bord :
 
 ---
 
-> Vous trouverez le détail du projet sur GitHub ici :
+> **Vous trouverez le détail du projet sur GitHub ici :**
 > [Lien vers le projet](https://github.com/users/AtefBELKHIRIA/projects/4/views/1)
 
-> Vous pouvez visionner le projet en vidéo ici : 
+> **Vous pouvez visionner le projet en vidéo ici :**
 > [Lien vers la vidéo](https://www.canva.com/design/DAG6Xo_BRtw/YS8Ic3MUTO7FK9zMdrj31A/watch?utm_content=DAG6Xo_BRtw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h98485160fe)
 
 ---
